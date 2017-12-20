@@ -40,12 +40,7 @@ class PortfoliosController < ApplicationController
     redirect_to portfolio_path,notice: "delete candidate successful"
   end
 
-  def vote
-    @portfolio_item = Portfolio.find_by(id: params[:id])
-    @portfolio_item.vote_logs.create(ip_address: request.remote_ip) if @portfolio_item
-    @portfolio_item.save
-    redirect_to portfolio_path,notice: "完成投票！"
-  end
+ 
 
 
 
