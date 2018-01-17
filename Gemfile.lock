@@ -1,9 +1,3 @@
-GIT
-  remote: https://github.com/Dex15900122/dex_view_tool
-  revision: 31f456c2c2b875ed42779a39bd8ef0e691f2ba9c
-  specs:
-    dex_view_tool (0.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -81,6 +75,7 @@ GEM
       railties (>= 4.1.0, < 5.2)
       responders
       warden (~> 1.2.3)
+    dex_view_tool (0.1.0)
     erubi (1.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
@@ -212,7 +207,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   devise
-  dex_view_tool!
+  dex_view_tool (~> 0.1.0)
   friendly_id
   jbuilder (~> 2.5)
   jquery-rails

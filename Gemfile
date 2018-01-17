@@ -53,6 +53,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'dex_view_tool', git:'https://github.com/Dex15900122/dex_view_tool'
+gem 'dex_view_tool', '~> 0.1.0'
 
 
