@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Dex15900122/dex_view_tool
+  revision: 31f456c2c2b875ed42779a39bd8ef0e691f2ba9c
+  specs:
+    dex_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -206,6 +212,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   devise
+  dex_view_tool!
   friendly_id
   jbuilder (~> 2.5)
   jquery-rails
