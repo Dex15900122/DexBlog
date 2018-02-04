@@ -1,3 +1,4 @@
+
 3.times do |topic|
   Topic.create!(
     title: "Topic #{topic}"
@@ -54,6 +55,5 @@ puts "9 portfolio items created"
 end
 
 puts "3 technologies created"
-
 
 
