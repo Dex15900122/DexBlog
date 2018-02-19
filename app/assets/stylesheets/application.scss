@@ -30,11 +30,20 @@ a:hover {
 html,
 body {
   height: 100%;
+  font-family: 'Nanum Pen Script', cursive;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+font-family: 'Nanum Pen Script', cursive;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -134,16 +143,12 @@ body {
 @media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
-    position: fixed;
-    top: 0;
+    
   }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
+ 
   /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: middle;
+    
   }
   /* Handle the widths */
   .masthead,
